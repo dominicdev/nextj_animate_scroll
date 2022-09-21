@@ -7,10 +7,10 @@ const HeroBox = () => {
                     <div className="flex flex-col justify-start">
                         <h1 className=' flex-1 text-white font-normal text-6xl font-sans leading-6'>Machine Intelligence Solutions</h1>
                     </div>
-                    <div className="flex mt-12">
-                        <h3 className="flex-1 text-white font-normal text-4xl font-sans leading-2">We Build the AI for AI Companies,<br></br> one line of code at a time.</h3>
+                    <div className="flex mt-16">
+                        <h3 className="flex-1 text-white font-normal text-3xl font-sans leading-1">We Build the AI for AI Companies,<br></br> one line of code at a time.</h3>
                     </div>
-                    <div className='flex-1 mt-[3rem] mr-[0rem] mb-[0rem] ml-[2rem]'>
+                    <div className='flex-1 mt-[3rem] mr-[0rem] mb-[0rem] ml-[2rem] '>
                         <button className='bg-[#de0800] text-xl rounded-xl touch-manipulation border border-[#de0800] py-4 px-12 hover:animate-pulse'>Contact Us </button>
                     </div>
                 </div>
