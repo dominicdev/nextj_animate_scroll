@@ -12,7 +12,7 @@ import { useInView, InView } from 'react-intersection-observer';
 const PaperStateRight = ({ number, color }) => {  
     return (
         <>
-        <div className="flex flex-row-reverse justify-center flex-wrap items-center m-auto w-full">
+        <div className="flex flex-row-reverse justify-center flex-wrap items-center m-auto w-full bg-white">
             <InView>
                 {({ inView, ref, entry }) => (
                     <div ref={ref} className={" flex-[3 0 16rem] min-w-[4rem] p-4 pb-8  transition-transform delay-300 duration-500 ease-out " + (inView ? "translate-x-0" : "translate-x-[100%]")}>

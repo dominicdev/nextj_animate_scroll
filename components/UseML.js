@@ -10,7 +10,7 @@ const UseML = () => {
                             <h3 className="text-white text-center text-4xl font-sans font-light">Do you want to build an innovative <br></br>Machine Learning solution?</h3>
                             <h5 className="text-white text-center text-4xl font-sans pt-[1rem] pr-0 pb-[5rem] pl-0">Get in touch and let’s discuss your project.</h5>
                             <div className=" flex flex-row justify-center mt-6">
-                                <button className="bg-[#de0800] text-xl font-normal rounded-xl touch-manipulation bottom-1 hover:bg-[#ff1b12]  py-4 px-12 hover:animate-pulse">Contact Us</button>
+                                <button className={"transition-opacit transition-transform delay-300 duration-500 ease-out flex bg-[#de0800] text-xl font-normal rounded-xl touch-manipulation bottom-1 hover:bg-[#ff1b12]  py-4 px-12 hover:animate-pulse " + (inView ? " translate-y-0 opacity-100" : " translate-y-20 opacity-0")}>Contact Us</button>
                             </div>
                         </div>
                     )}

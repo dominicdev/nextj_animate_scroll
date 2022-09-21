@@ -12,7 +12,7 @@ import { useInView, InView } from 'react-intersection-observer';
 const PaperState = ({ number, color }) => {  
     return (
         <>
-        <div className="flex justify-center flex-wrap items-center flex-row m-auto w-full my-3">
+        <div className="flex justify-center flex-wrap items-center flex-row m-auto w-full my-3 bg-white">
             <InView>
                 {({ inView, ref, entry }) => (
                     <div ref={ref} className={"-translate-x-full flex-[3 0 16rem] min-w-[4rem] p-4 pb-8  transition-transform delay-300 duration-500 ease-out " + (inView ? " translate-x-0" : " -translate-x-full ")}>
@@ -22,11 +22,7 @@ const PaperState = ({ number, color }) => {
             </InView>
 
             <InView>
-                {({ inView, ref, entry }) => (
-                    // <div ref={ref} className={"transition-opacity delay-700 duration-1000 ease-out p-4 pb-8   " + (inView?" opacity-100":" opacity-0")}>
-                    //     <img className=" max-w-full h-auto align-middle border-none" src={"/img/2019-08-01_EMNLP-2019-workshop_TextGraphs_v07_with-logo.png"} alt="Shared Task: Language Model Assisted Explanation Generation - poster" />
-                    // </div>
-
+                {({ inView, ref, entry }) => (  
                     <div  ref={ref} className={"transition-opacity delay-700 duration-1000 ease-out flex-[7 0 30rem] max-w-[60%] p-4 pr-8 " + (inView?" opacity-100":" opacity-0")}>
                         <div  >
                             <div className=" inline h-[2px] w-[30px] text-red-700 ">
