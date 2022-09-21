@@ -38,7 +38,7 @@ const PaperState = ({ number, color }) => {
                             <span>Shared Task: Language Model Assisted Explanation Generation</span>
                         </div>
                         <div className="text-black text-sm leading-4 pt-[1rem] pr-[1rem] pb-[2rem] pl-[0rem]">
-                            The TextGraphs-13 Shared Task on Explanation Regeneration asked participants to develop methods to reconstruct gold explanations for elementary science questions. Red Dragon AI's entries used the language of the questions and explanation text directly, rather than a constructing a separate graph-like representation. Our leaderboard submission placed us 3rd in the competition, but we present here three methods of increasing sophistication, each of which scored successively higher on the test set after the competition close.
+                            The TextGraphs-13 Shared Task on Explanation Regeneration asked participants to develop methods to reconstruct gold explanations for elementary science questions. Red Dragon AI&apos;s entries used the language of the questions and explanation text directly, rather than a constructing a separate graph-like representation. Our leaderboard submission placed us 3rd in the competition, but we present here three methods of increasing sophistication, each of which scored successively higher on the test set after the competition close.
                         </div>
                         <div className="flex justify-start ">
                             <button className='rounded p-2 m-[0.5rem] bg-[#de0800] text-sm touch-manipulation border-[1px solid #de0800]'><a href={"/"}>Read Paper</a></button>
