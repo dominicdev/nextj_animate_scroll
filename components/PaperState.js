@@ -15,7 +15,7 @@ const PaperState = ({ number, color }) => {
         <div className="flex justify-center flex-wrap items-center flex-row m-auto w-full my-3 bg-white">
             <InView>
                 {({ inView, ref, entry }) => (
-                    <div ref={ref} className={"-translate-x-full flex-[3 0 16rem] min-w-[4rem] p-4 pb-8  transition-transform delay-300 duration-500 ease-out " + (inView ? " translate-x-0" : " -translate-x-full ")}>
+                    <div ref={ref} className={"-translate-x-full transition-transform delay-300 duration-500 ease-out flex-[3 0 16rem] min-w-[4rem] p-4 pb-8 " + (inView ? " translate-x-0" : " -translate-x-full ")}>
                         <img className=" max-w-full h-auto align-middle border-none" src={"/img/2019-08-01_EMNLP-2019-workshop_TextGraphs_v07_with-logo.png"} alt="Shared Task: Language Model Assisted Explanation Generation - poster" />
                     </div>
                 )}
