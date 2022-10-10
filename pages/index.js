@@ -1,13 +1,10 @@
-import Head from 'next/head'
-import Section_com from '../components/Section_com';  
-import PaperState from '../components/PaperState';
-import PaperStateRight from '../components/PaperStateRight';
+import Head from 'next/head' 
 import Navbar from '../components/Navbar';
-import HeroBox from '../components/HeroBox';
-import AboutUs from '../components/AboutUs';
-import UseML from '../components/UseML';
-import AIForEveryone from '../components/AIForEveryone';
-import RDAISolutions from '../components/RDAISolutions';
+import HeroBox from '../components/Main/HeroBox';
+import AboutUs from '../components/Main/AboutUs';
+import UseML from '../components/Main/UseML';
+import AIForEveryone from '../components/Main/AIForEveryone';
+import RDAISolutions from '../components/Main/RDAISolutions';
 export default function Home() {
 
 
@@ -24,14 +21,7 @@ export default function Home() {
         <AboutUs/>
         <UseML/>
         <AIForEveryone/>
-        <RDAISolutions/>
-        {/* <PaperState />
-        <PaperStateRight /> */}
-        {/* <Section_com number={1} color={"bg-red-400"} /> */}
-        {/* <Section_com number={1} color={"bg-red-400"} />
-        <Section_com number={2} color={"bg-green-400"} />
-        <Section_com number={3} color={"bg-yellow-400"} />
-        <Section_com number={4} color={"bg-pink-400"} /> */}
+        <RDAISolutions/> 
       </main>
 
     </div>
