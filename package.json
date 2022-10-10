@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@u-wave/react-vimeo": "^0.9.8",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^7.5.3",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.37.0",
     "react-intersection-observer": "^9.4.0"
   },
   "devDependencies": {

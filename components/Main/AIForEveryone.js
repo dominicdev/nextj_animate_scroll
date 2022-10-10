@@ -1,8 +1,8 @@
 import React from 'react' 
 const AIForEveryone = () => {
     return (
-        <section>
-            <div className="bg-white flex min-h-[55vh] flex-row justify-start items-center">
+        <section className='w-full'>
+            <div className="bg-white flex min-h-[55vh] flex-row justify-start items-center w-full">
                 <div className="flex flex-col justify-center w-[70%] m-auto  ">
                     <h3 className="text-black text-center text-5xl pt-[2rem] pr-0 pb-[0.5rem] pl-0 font-sans font-light">AI For Everyone</h3>
                     <h5 className="text-black text-center text-2xl pt-[2rem] pr-0 pb-[0.5rem] pl-0 font-sans  ">Get your team trained by Red Dragon AI, courses now available.</h5>

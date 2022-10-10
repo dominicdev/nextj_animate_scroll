@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Section_com from '../components/Section_com';  
-import PaperState from '../components/PaperState';
-import PaperStateRight from '../components/PaperStateRight';
-import Navbar from '../components/Navbar';
-import HeroBox from '../components/HeroBox';
-import AboutUs from '../components/AboutUs';
-import UseML from '../components/UseML';
-import AIForEveryone from '../components/AIForEveryone';
-import RDAISolutions from '../components/RDAISolutions';
+import Head from 'next/head' 
+import Navbar from '../components/Navbar'; 
+import CallOutPicture from '../components/TrainingComponents/CallOutPicture';
+import BannerCallout from '../components/TrainingComponents/BannerCallout';
+import CourseCardsHolder from '../components/TrainingComponents/CourseCardsHolder';
+import SignUpTraining from '../components/TrainingComponents/SignUpTraining';
+import CourseCardsUpComing from '../components/TrainingComponents/CourseCardsUpComing';
+import CorporateBanner from '../components/TrainingComponents/CorporateBanner';
+import WhyChooseUs from '../components/TrainingComponents/WhyChooseUs';
+import CopyrightNotic from '../components/CopyrightNotic';
 export default function Training() { 
   return (
     <div className="min-h-screen bg-white">
@@ -18,20 +18,15 @@ export default function Training() {
       </Head>
       <Navbar/>
       <main className='text-white w-full flex flex-col justify-center items-center' >
-        {/* <HeroBox/>
-        <AboutUs/>
-        <UseML/>
-        <AIForEveryone/>
-        <RDAISolutions/> */}
-        <PaperState />
-        <PaperStateRight />
-        {/* <Section_com number={1} color={"bg-red-400"} /> */}
-        {/* <Section_com number={1} color={"bg-red-400"} />
-        <Section_com number={2} color={"bg-green-400"} />
-        <Section_com number={3} color={"bg-yellow-400"} />
-        <Section_com number={4} color={"bg-pink-400"} /> */}
+         <CallOutPicture/>
+         <BannerCallout/>
+         <CourseCardsHolder />
+         <SignUpTraining/>
+         <CourseCardsUpComing/>
+         <CorporateBanner/>
+         <WhyChooseUs/>
       </main>
-
+    <CopyrightNotic/>
     </div>
 
   )
