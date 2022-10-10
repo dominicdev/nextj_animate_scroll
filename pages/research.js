@@ -3,6 +3,7 @@ import Head from 'next/head'
 // import PaperStateRight from '../components/Main/PaperStateRight';
 import Navbar from '../components/Navbar'; 
 import ResearchPapers from '../components/ResearchPapers';
+import CopyrightNotic from '../components/CopyrightNotic';
 export default function Research() { 
   return (
     <div className="min-h-screen bg-white">
@@ -19,6 +20,7 @@ export default function Research() {
         <AIForEveryone/>
         <RDAISolutions/> */}
          <ResearchPapers/>
+         <CopyrightNotic/>
         {/* <Section_com number={1} color={"bg-red-400"} /> */}
         {/* <Section_com number={1} color={"bg-red-400"} />
         <Section_com number={2} color={"bg-green-400"} />
