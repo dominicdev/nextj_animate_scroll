@@ -52,7 +52,7 @@ const list_course = [
   {
     SidebarCertificate: "/img/training_imgs/certificate-icon.svg",
     title: 'Deep Learning Developer Series',
-    link: '//training/advanced-computer-vision-deep-learning',
+    link: '/training/advanced-computer-vision-deep-learning',
     link_title: 'Advanced Computer Vision with Deep Learning',
     duration: "Duration: 2 days",
     certificate_text: 'Certificate Awarded'
