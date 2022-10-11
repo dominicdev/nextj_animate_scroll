@@ -8,7 +8,7 @@ import ANLP from "../../components/TrainingDetailComponents/ANLP";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/NavBar"; 
+import Navbar from "../../components/Navbar"; 
 const AdvancedNLP = () => {
   const [anlpProps, setAnlpProps] = useState({
     title: "Advanced NLP and Sequences",

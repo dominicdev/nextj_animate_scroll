@@ -8,7 +8,7 @@ import USRL from "../../components/TrainingDetailComponents/USRL";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 const UnsupervisedCourse = () => {
   const [usrlProps, setUsrlProps] = useState({
     title: "Unsupervised, Self Supervised and Reinforcement Learning",

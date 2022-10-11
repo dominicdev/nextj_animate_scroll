@@ -8,7 +8,7 @@ import DLTS from "../../components/TrainingDetailComponents/DLTS";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 const DLTimeSeries = () => {
   const [usrlProps, setUsrlProps] = useState({
     title: "Deep Learning for Structured and Time Series Data",

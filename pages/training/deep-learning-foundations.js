@@ -9,7 +9,7 @@ import WhyStudyAI from '../../components/TrainingDetailComponents/WhyStudyAI'
 import MoreInfo from '../../components/TrainingDetailComponents/MoreTrainingInfo'
 import Footer from '../../components/Footer';
 import CopyrightNotic from '../../components/CopyrightNotic';
-import Navbar from '../../components/NavBar';
+import Navbar from '../../components/Navbar';
 const DeepLearningFoundations = () => {
     const [dlfProps, setDlfProps] = useState({
         title: "Deep Learning Foundations",

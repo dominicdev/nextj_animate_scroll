@@ -8,7 +8,7 @@ import ACV from "../../components/TrainingDetailComponents/ACV";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 const AdvancedComputerVision = () => {
   const [acvProps, setAcvProps] = useState({
     title: "Advanced Computer Vision with Deep Learning",

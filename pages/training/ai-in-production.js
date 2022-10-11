@@ -8,7 +8,7 @@ import AIP from "../../components/TrainingDetailComponents/AIP";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer"; 
-import Navbar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 const AIinProduction = () => {
   const [usrlProps, setUsrlProps] = useState({
     title: "AI in Production: Deploying to the real world",

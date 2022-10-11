@@ -8,7 +8,7 @@ import DLA from "../../components/TrainingDetailComponents/DLA";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 
 const DLAudio = () => {
   const [usrlProps, setUsrlProps] = useState({
