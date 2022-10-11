@@ -2,7 +2,7 @@ import React from 'react'
 import CardCourse from './CardCourse'
  
 const CourseCardsUpComing = () => {
-
+  
 
   const list_course = [ 
     {

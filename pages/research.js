@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar';
 import ResearchPapers from '../components/ResearchPapers';
 import CopyrightNotic from '../components/CopyrightNotic';
+import Footer_new from '../components/footer_new';
 export default function Research() {
   return (
     <div className="min-h-screen bg-white">
@@ -19,7 +20,7 @@ export default function Research() {
         <AIForEveryone/>
         <RDAISolutions/> */}
         <ResearchPapers />
-        <CopyrightNotic />
+        <Footer_new />
         {/* <Section_com number={1} color={"bg-red-400"} /> */}
         {/* <Section_com number={1} color={"bg-red-400"} />
         <Section_com number={2} color={"bg-green-400"} />

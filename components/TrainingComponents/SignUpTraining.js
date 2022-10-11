@@ -5,6 +5,8 @@ import { init, sendForm } from "emailjs-com";
 // import { pageViewsTracking } from "../ReactGAFunction";
 init(process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_ID); 
 const SignUpTraining = () => {
+  const effect_Trans = "transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 duration-300"
+  
   let list_course = [
     "All programs",
     "Foundations of Deep Learning",
@@ -229,7 +231,7 @@ const SignUpTraining = () => {
               <div className="flex justify-center items-center w-full">
                 <input
                   style={{ border: "1px solid #de0800" }}
-                  className=" hover:bg-[ #ff1b12] cursor-pointer w-fit text-white font-normal touch-manipulation my-0 mx-[0.1rem] p-2 bg-[#de0800]"
+                  className={effect_Trans+" hover:bg-[#ff1b12] cursor-pointer w-fit text-white font-normal touch-manipulation my-0 mx-[0.1rem] p-2 bg-[#de0800] rounded-xl"}
                   type="submit" value="Find Out More Info" />
               </div>
             </form>

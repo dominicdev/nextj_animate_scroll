@@ -5,6 +5,7 @@ import PersonaProduct from '../components/ProductPage/PersonaProduct';
 import AudioProduct from '../components/ProductPage/AudioProduct';
 import ChatBotProduct from '../components/ProductPage/ChatBotProduct';
 import CopyrightNotic from '../components/CopyrightNotic';
+import Footer_new from '../components/footer_new';
 export default function Products() {
   return (
     <div className="min-h-screen bg-white">
@@ -19,7 +20,7 @@ export default function Products() {
         <AudioProduct />
         <ChatBotProduct />
       </main>
-      <CopyrightNotic />
+      <Footer_new />
     </div>
 
   )

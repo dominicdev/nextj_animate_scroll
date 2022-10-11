@@ -8,6 +8,7 @@ import CourseCardsUpComing from '../components/TrainingComponents/CourseCardsUpC
 import CorporateBanner from '../components/TrainingComponents/CorporateBanner';
 import WhyChooseUs from '../components/TrainingComponents/WhyChooseUs';
 import CopyrightNotic from '../components/CopyrightNotic';
+import Footer_new from '../components/footer_new';
 export default function Training() {
   return (
     <div className="min-h-screen bg-white">
@@ -25,7 +26,7 @@ export default function Training() {
         <CorporateBanner />
         <WhyChooseUs />
       </main>
-      <CopyrightNotic />
+      <Footer_new />
     </div>
 
   )
