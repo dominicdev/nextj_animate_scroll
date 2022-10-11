@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const footer = () => {
     return (
         <section>
@@ -17,8 +17,8 @@ const footer = () => {
                         <h4 className='font-normal text-xl text-white'>Links</h4>
                         <div className=' absolute bottom-0 top-14  h-px mx-0 mb-0 mt-1 bg-red-600 w-[70%]' />
                         <ul className='p-4 text-white'>
-                            <li className='p-2 text-white'><a className='font-light text-white ' href="/training">Corporate Trainings</a></li>
-                            <li className='p-2 text-white'><a className='font-light text-white ' href="/training">Public Trainings</a></li>
+                            <li className='p-2 text-white'><Link className='font-light text-white ' href="/training">Corporate Trainings</Link></li>
+                            <li className='p-2 text-white'><Link className='font-light text-white ' href="/training">Public Trainings</Link></li>
                         </ul>
                     </div>
                     <div style={{ flexBasis: "20%", flexflow: " column nowrap" }} className='relative flex px-4 py-8'>
