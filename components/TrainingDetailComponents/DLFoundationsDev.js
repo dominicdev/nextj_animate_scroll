@@ -22,16 +22,16 @@ const DLFoundationDev = (props) => {
                             <div className="flex justify-evenly">
                                 <div className="flex" >
                                     <ul className="list-inside py-4 px-8 list-none">
-                                        <li className="font-light text-xl p-4 font-serif"> {"✓"}   Building Dense, CNN and RNNs Neural Networks in TensorFlow</li>
-                                        <li className="font-light text-xl p-4 font-serif"> {"✓"}   How to build models with the TensorFlow Sequential and Functional APIs</li>
-                                        <li className="font-light text-xl p-4 font-serif"> {"✓"}   The theory behind Convolutional and Recurrent Neural Networks</li>
+                                        <li className="font-light text-xl p-4 font-serif"> {"✓"} Building Dense, CNN and RNNs Neural Networks in TensorFlow</li>
+                                        <li className="font-light text-xl p-4 font-serif"> {"✓"} How to build models with the TensorFlow Sequential and Functional APIs</li>
+                                        <li className="font-light text-xl p-4 font-serif"> {"✓"} The theory behind Convolutional and Recurrent Neural Networks</li>
                                     </ul>
                                 </div>
                                 <div className="flex -ml-20" >
                                     <ul className="list-inside py-4 px-8  list-none">
                                         <li className="font-light text-xl py-4 px-8 font-serif"> {"✓"} How to use ImageNet models for Transfer Learning</li>
-                                        <li className="font-light text-xl py-4 px-8 font-serif"> {"✓"}  Building models with Embeddings for NLP</li>
-                                        <li className="font-light text-xl py-4 px-8 font-serif"> {"✓"}  Building models for Tabular Data using Pandas and TensorFlow</li>
+                                        <li className="font-light text-xl py-4 px-8 font-serif"> {"✓"} Building models with Embeddings for NLP</li>
+                                        <li className="font-light text-xl py-4 px-8 font-serif"> {"✓"} Building models for Tabular Data using Pandas and TensorFlow</li>
                                     </ul>
                                 </div>
                             </div>

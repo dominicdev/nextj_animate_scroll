@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import {Helmet} from "react-helmet";
+import Head from 'next/head';
 // components
 import TheBar from '../../components/TrainingDetailComponents/TheBar';
 import TrainingDetailBanner from '../../components/TrainingDetailComponents/TrainingDetailBanner';
@@ -8,7 +8,7 @@ import DLPM from '../../components/TrainingDetailComponents/DLPM';
 import WhyStudyAI from '../../components/TrainingDetailComponents/WhyStudyAI'
 import MoreInfo from '../../components/TrainingDetailComponents/MoreTrainingInfo'
 import Footer from '../../components/Footer';
-
+import Navbar from '../../components/NavBar';
 const ProductManagers = () => {
     const [usrlProps, setUsrlProps] = useState({
         title: "Foundations of Deep Learning for Product Managers",
@@ -19,10 +19,11 @@ const ProductManagers = () => {
     })
     return (
         <div>
-            <Helmet>
+            <Head>
                 <title>Red Dragon AI - AI & Deep Learning Training for Product Managers Singapore</title>
                 <meta name="description" content="Looking to train your team in AI and machine learning for your organization? Find out how to do it properly." />
-            </Helmet>
+            </Head>
+            <Navbar/>
             <TrainingDetailBanner courseProps={usrlProps}/>
             {/* <TheBar /> */}
             <DLPM courseProps={usrlProps} />

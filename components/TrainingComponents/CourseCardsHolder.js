@@ -108,13 +108,12 @@ const list_course = [
   {
     SidebarCertificate: "/img/training_imgs/certificate-icon.svg",
     title: "Deep Learning for Graphs",
-    link: "/training/deep-learning-foundations-for-managers",
+    link: "/training/deep-learning-for-graphs",
     link_title: "AI for Graphs and Knowledge Base",
     duration: "Duration: 2 days",
     certificate_text: "Certificate Awarded",
-  }
+  } 
 ]
-
 const CourseCardsHolder = () => {
   return (
     <section className="w-full  text-black">

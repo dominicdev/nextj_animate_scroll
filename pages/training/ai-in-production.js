@@ -1,14 +1,14 @@
 import React from "react";
-import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { useState } from "react"; 
+import Head from "next/head";
 // componenets
 import TheBar from "../../components/TrainingDetailComponents/TheBar";
 import TrainingDetailBanner from "../../components/TrainingDetailComponents/TrainingDetailBanner";
 import AIP from "../../components/TrainingDetailComponents/AIP";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
-import Footer from "../../components/Footer";
-
+import Footer from "../../components/Footer"; 
+import Navbar from "../../components/NavBar";
 const AIinProduction = () => {
   const [usrlProps, setUsrlProps] = useState({
     title: "AI in Production: Deploying to the real world",
@@ -20,7 +20,7 @@ const AIinProduction = () => {
   });
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>
           Red Dragon AI - AI & Machine Learning in Production Training Singapore
         </title>
@@ -28,7 +28,8 @@ const AIinProduction = () => {
           name="description"
           content="Looking to train your team in AI and Deep Learning for your organization? Find out how to do it properly."
         />
-      </Helmet>
+      </Head>
+      <Navbar/>
       <TrainingDetailBanner courseProps={usrlProps} />
       {/* <TheBar /> */}
       <AIP courseProps={usrlProps} />

@@ -24,7 +24,7 @@ const DeepLearningFoundations = () => {
                 <title>Red Dragon AI - Machine Learning & Deep Learning Training Singapore</title>
                 <meta name="description" content="Looking to train your team in Deep Learning and machine learning for your organization? Find out how to do it properly." />
                 <link rel="icon" href="/favicon.ico" />
-            </Head>
+            </Head> 
             <Navbar/>
             <TrainingDetailBanner courseProps={dlfProps}/>
             <TheBar />

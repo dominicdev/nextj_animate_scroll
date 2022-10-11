@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 // Components
 import TheBar from "../../components/TrainingDetailComponents/TheBar";
 import TrainingDetailBanner from "../../components/TrainingDetailComponents/TrainingDetailBanner";
@@ -8,7 +8,7 @@ import DLTS from "../../components/TrainingDetailComponents/DLTS";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer";
-
+import Navbar from "../../components/NavBar";
 const DLTimeSeries = () => {
   const [usrlProps, setUsrlProps] = useState({
     title: "Deep Learning for Structured and Time Series Data",
@@ -20,7 +20,7 @@ const DLTimeSeries = () => {
   });
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>
           Red Dragon AI - TimeSeries & Forecasting with Deep Learning Training
           Singapore
@@ -29,7 +29,8 @@ const DLTimeSeries = () => {
           name="description"
           content="Looking to train your team in AI and machine learning for forecasting? Find out how to do it properly."
         />
-      </Helmet>
+      </Head>
+      <Navbar/>
       <TrainingDetailBanner courseProps={usrlProps} />
       {/* <TheBar /> */}
       <DLTS courseProps={usrlProps} />

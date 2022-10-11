@@ -28,7 +28,7 @@ const Navbar = () => {
     setLoadTabs(tabs)
   }, [])
  
- console.log(router)
+//  console.log(router)
 
   return (
     <div className={" min-h-8vh "}>
@@ -86,7 +86,12 @@ const Navbar = () => {
                   router.pathname === "/training/deep-learning-foundations" ||
                   router.pathname === "/training/advanced-computer-vision-deep-learning" ||
                   router.pathname === "/training/advanced-nlp-and-sequences"||
-                  router.pathname === "/training/unsupervised-and-reinforcement-learning-course"
+                  router.pathname === "/training/unsupervised-and-reinforcement-learning-course" ||
+                  router.pathname === "/training/ai-in-production" ||
+                  router.pathname === "/training/deep-learning-for-audio" ||
+                  router.pathname === "/training/deep-learning-for-structured-time-series-data"||
+                  router.pathname === "/training/deep-learning-foundations-for-managers"||
+                  router.pathname === "/training/deep-learning-for-graphs"
                 ) ? "100%" : "0%" }}
               />
             </li>

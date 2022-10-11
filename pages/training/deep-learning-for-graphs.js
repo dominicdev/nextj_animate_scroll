@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 // Components
 import TheBar from "../../components/TrainingDetailComponents/TheBar";
 import TrainingDetailBanner from "../../components/TrainingDetailComponents/TrainingDetailBanner";
@@ -8,7 +8,7 @@ import DLA from "../../components/TrainingDetailComponents/DLA";
 import WhyStudyAI from "../../components/TrainingDetailComponents/WhyStudyAI";
 import MoreInfo from "../../components/TrainingDetailComponents/MoreTrainingInfo";
 import Footer from "../../components/Footer";
-
+import Navbar from "../../components/NavBar";
 const DLGraphs = () => {
   const [usrlProps, setUsrlProps] = useState({
     title: "Deep Learning for Graphs",
@@ -20,7 +20,7 @@ const DLGraphs = () => {
   });
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>
           Red Dragon AI - Audio & Machine Learning Training Singapore
         </title>
@@ -28,7 +28,8 @@ const DLGraphs = () => {
           name="description"
           content="Looking to train your team in AI and machine learning for audio? Find out how to do it properly."
         />
-      </Helmet>
+      </Head>
+      <Navbar/>
       <TrainingDetailBanner courseProps={usrlProps} />
       {/* <TheBar /> */}
       <DLA courseProps={usrlProps} />
