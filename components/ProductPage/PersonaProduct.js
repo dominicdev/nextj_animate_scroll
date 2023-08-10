@@ -23,7 +23,7 @@ const PersonaProduct = () => {
             <div className=" flex flex-row justify-center bg-white m-auto md:h-full xl:h-[60vh]">
                 <div className="xl:w-[74%] md:w-full m-auto font-normal font-sans leading-normal mt-[20px]">
                     <div className=" flex flex-col md:flex-col lg:flex-row  items-center justify-center" >
-                        <div className=" text-black p-12 gl:pl-0 md:w-[80%] gl:w-[40%] font-normal text-base font-sans leading-6">
+                        <div className=" text-black p-12 gl:pl-0 xs:w-[80%] sm:w-[80%] md:w-[80%] gl:w-[40%] font-normal text-base font-sans leading-6">
                             <h1 className=" font-bold text-[2rem]">
                                 Persona Labs
                             </h1>
@@ -33,12 +33,9 @@ const PersonaProduct = () => {
                             </p> 
 
                         </div>
-                        <div className="  m-auto relative sm:mb-5 md:mb-5 sm:w-full md:w-full lg:w-[60%] pt-0 flex justify-center">
-                            <Vimeo
-                                className="flex justify-center w-full h-full m-auto"
-
-                                // width={840}
-                                // height={560} 
+                        <div className="  m-auto relative sm:mb-5 md:mb-5  xs:w-full sm:w-full md:w-full lg:w-[60%] pt-0 flex justify-center">
+                            <Vimeo className="flex justify-center xs:w-[400px]  sm:w-[400px] md:w-full lg:w-full h-full m-auto"
+                            
                                 autoplay={false}
                                 paused={false}
                                 video={"674266822"}
