@@ -21,7 +21,7 @@ const HeroBox = () => {
                     </InView>
                     <InView>
                         {({ inView, ref, entry }) => (
-                            <div ref={ref} className={"transition-opacity delay-700 duration-1000 ease-out flex-1 mt-[3rem] mr-[0rem] mb-[0rem] ml-[2rem]  " + (inView ? " opacity-100" : " opacity-0")}>
+                            <div ref={ref} className={"transition-opacity delay-700 duration-1000 ease-out flex-1 mt-[3rem] mr-[0rem] mb-[0rem]   " + (inView ? " opacity-100" : " opacity-0")}>
                                 <button className='bg-[#de0800] text-xl rounded-xl touch-manipulation border border-[#de0800] py-4 px-12 hover:animate-pulse'>Contact Us </button>
                             </div>
                         )}
