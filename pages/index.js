@@ -15,7 +15,7 @@ export default function Home() {
       <meta name="description" content="Looking to introduce AI and machine learning to your organization? Find out how to do it properly." />
   </Head>
       <Navbar/>
-      <main className='text-white w-full flex flex-col justify-center items-center' >
+      <main className='text-white w-full flex flex-col justify-center items-center overflow-hidden' >
         <HeroBox/>
         <AboutUs/>
         <UseML/>
