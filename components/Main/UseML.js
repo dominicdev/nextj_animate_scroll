@@ -3,10 +3,10 @@ import { InView } from 'react-intersection-observer'
 const UseML = () => {
     return (
         <section>
-            <div className={"bg-[#282727] flex w-screen min-h-[60vh] flex-col justify-center items-center"}>
+            <div className={"bg-[#282727] flex w-screen min-h-[60vh] flex-col justify-center items-center overflow-hidden"}>
                 <InView>
                     {({ inView, ref, entry }) => (
-                        <div ref={ref} className={"transition-opacity delay-700 duration-1000 ease-out flex flex-col justify-center w-[70%] m-auto" + (inView ? " opacity-100" : " opacity-0")}>
+                        <div ref={ref} className={"my-6  transition-opacity delay-700 duration-1000 ease-out flex flex-col justify-center w-[70%] m-auto" + (inView ? " opacity-100" : " opacity-0")}>
                             <h3 className="text-white text-center text-4xl font-sans font-light">Do you want to build an innovative <br></br>Machine Learning solution?</h3>
                             <h5 className="text-white text-center text-4xl font-sans pt-[1rem] pr-0 pb-[5rem] pl-0">Get in touch and let’s discuss your project.</h5>
                             <div className=" flex flex-row justify-center my-6">
