@@ -6,8 +6,8 @@ const ChatBotProduct = () => {
     return (
         <section className="w-full h-full">
             <div className="w-[70%] pt-12 m-auto font-normal text-base font-sans sm:h-full md:h-full lg:h-[60vh]">
-                <div className="m-auto leading-6 gap-3 flex sm:flex-col md:flex-col lg:flex-row  items-center justify-center">
-                    <div className="text-black  sm:px-0 md:px-0 lg:p-8 lg:pl-0 sm:w-full md:w-full lg:w-[50%]">
+                <div className="m-auto leading-6 gap-3 flex xs:flex-col sm:flex-col md:flex-col lg:flex-row  items-center justify-center">
+                    <div className="text-black xs:px-0  sm:px-0 md:px-0 lg:p-8 lg:pl-0 xs:w-full sm:w-full md:w-full lg:w-[50%]">
                         <h1 className="font-bold text-[2rem] mb-5">
                             Chatbot Interface
                         </h1> 
@@ -19,7 +19,7 @@ const ChatBotProduct = () => {
                         </MoreInfoDiv> */}
 
                     </div> 
-                    <div className="sm:mb-5 md:mb-5 sm:w-full md:w-full lg:w-[70%] relative md:m-auto sm:m-auto md:mt-4 sm:mt-4  ">
+                    <div className="xs:mb-5 sm:mb-5 md:mb-5 xs:w-full sm:w-full md:w-full lg:w-[70%] relative md:m-auto sm:m-auto md:mt-4 sm:mt-4  ">
                         <img   className="w-full h-full" src={"/img/chatbot.png"} alt="Chatbot Icon" />
                     </div> 
                 </div>

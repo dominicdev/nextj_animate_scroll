@@ -23,7 +23,7 @@ const PersonaProduct = () => {
             <div className=" flex flex-row justify-center bg-white m-auto md:h-full xl:h-[60vh]">
                 <div className="xl:w-[74%] md:w-full m-auto font-normal font-sans leading-normal mt-[20px]">
                     <div className=" flex flex-col md:flex-col lg:flex-row  items-center justify-center" >
-                        <div className=" text-black p-12 gl:pl-0 xs:w-[80%] sm:w-[80%] md:w-[80%] gl:w-[40%] font-normal text-base font-sans leading-6">
+                        <div className=" text-black p-12 gl:pl-0 xs:w-[90%] sm:w-[80%] md:w-[80%] gl:w-[40%] font-normal text-base font-sans leading-6">
                             <h1 className=" font-bold text-[2rem]">
                                 Persona Labs
                             </h1>
