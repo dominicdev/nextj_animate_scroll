@@ -8,7 +8,7 @@ const HeroBox = () => {
                     <InView>
                         {({ inView, ref, entry }) => (
                             <div ref={ref} className={"transition-opacity delay-300 duration-1000 ease-out flex flex-col justify-start " + (inView ? " opacity-100" : " opacity-0")}>
-                                <h1 className=' flex-1 text-white font-normal text-6xl font-sans leading-6'>Machine Intelligence Solutions</h1>
+                                <h1 className=' flex-1 text-white font-normal text-6xl font-sans  '>Machine Intelligence Solutions</h1>
                             </div>
                         )}
                     </InView>
