@@ -65,7 +65,7 @@ const SignUpTraining = () => {
   return (
     <section className="w-full mb-9">
       <div className="flex flex-col h-full relative items-center">
-        <div className="relative sm:[90%] md:[70%] lg:w-[40%]">
+        <div className="relative xs:[90%] sm:[90%] md:[70%] lg:w-[80%] xs:px-5 sm:px-5 md:px-0 lg:px-0">
           {!sendMg && (
             <div className="relative float-left w-full mr-[4%] my-[15px] ">
               <div className="p-0 min-h-0">

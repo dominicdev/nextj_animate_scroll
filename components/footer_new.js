@@ -3,7 +3,7 @@ const footer_new = () => {
     const effect_Trans = "transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 duration-300"
   
     return (
-        <footer className="relative bg-[#1C1A17] pt-8 pb-6">
+        <footer className="relative bg-[#1C1A17] pt-8 pb-6 w-full">
             <div className="container mx-auto px-12">
                 <div className="flex flex-wrap text-left lg:text-left">
                     <div className="w-full lg:w-6/12 px-4">
@@ -66,7 +66,7 @@ const footer_new = () => {
                 <div className="flex flex-wrap items-center md:justify-between justify-center">
                     <div className="w-full md:w-4/12 px-4 mx-auto text-center">
                         <div className="text-sm text-red-600 font-semibold py-1">
-                            Copyright © <span id="get-current-year">2017-2022 © All Rights Reserved </span><a href="https://www.creative-tim.com/product/notus-js" className="text-red-600 hover:text-gray-800" target="_blank" rel="noreferrer"> RDAI
+                            Copyright © <span id="get-current-year">2017-2023 © All Rights Reserved </span><a href="https://www.creative-tim.com/product/notus-js" className="text-red-600 hover:text-gray-800" target="_blank" rel="noreferrer"> RDAI
                             </a>.
                         </div>
                     </div>
