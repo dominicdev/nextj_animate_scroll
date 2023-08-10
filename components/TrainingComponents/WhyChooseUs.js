@@ -17,8 +17,8 @@ const WhyChooseUs = () => {
                         className="w-[20%] p-6 m-5 flex-1 my-0 mx-2 flex flex-col justify-start bg-[#f0f0f0] items-center">
                         <Image
                             className="w-[20%] h-auto"
-                            width={"70px"}
-                            height={"70px"}
+                            width={70}
+                            height={70}
                             src={"/img/training_imgs/wisdom-1-img.png"} alt="Wisdom" />
                         <h3
                             className="py-2 px-0  text-2xl font-serif font-extralight text-center"
@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
                         className="w-[20%] p-6 m-5 flex-1 my-0 mx-2 flex flex-col justify-start bg-[#f0f0f0] items-center">
                         <Image
                             className="w-[20%] h-auto"
-                            width={"70px"} height={"70px"}
+                            width={70} height={70}
                             src={"/img/training_imgs/network-1-img.png"} alt="Wisdom" />
                         <h3
                             className="py-2 px-0  text-2xl font-serif font-extralight text-center"
@@ -42,8 +42,8 @@ const WhyChooseUs = () => {
                         className="w-[20%] p-6 m-5 flex-1 my-0 mx-2 flex flex-col justify-start bg-[#f0f0f0] items-center">
                         <Image
                             className="w-[20%] h-auto"
-                            width={"70px"}
-                            height={"70px"}
+                            width={70}
+                            height={70}
                             src={"/img/training_imgs/deep-learning-1-img.png"} alt="Wisdom" />
                         <h3
                             className="py-2 px-0  text-2xl font-serif font-extralight text-center"
@@ -55,8 +55,8 @@ const WhyChooseUs = () => {
                         className="w-[20%] p-6 m-5 flex-1 my-0 mx-2 flex flex-col justify-start bg-[#f0f0f0] items-center">
                         <Image
                             className="w-[20%] h-auto"
-                            width={"70px"}
-                            height={"70px"}
+                            width={70}
+                            height={70}
                             src={"/img/training_imgs/computer-1-img.png"} alt="Wisdom" />
                         <h3
                             className="py-2 px-0  text-2xl font-serif font-extralight text-center"
