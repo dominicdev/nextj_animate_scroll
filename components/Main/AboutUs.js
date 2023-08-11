@@ -25,7 +25,7 @@ const AboutUs = () => {
                                             <h2 className=' text-center text-red-600 font-bold text-5xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>Why AI?</h2>
                                         </div>
                                         <div className='flex flex-1'>
-                                            <p className='w-full text-center text-gray-600 text-xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>Today&apos;s AI is an uncharted revolution, not just intelligent. It enables feats once thought impossible, completing them with unprecedented efficiency. We're unlocking doors to extraordinary possibilities.</p>
+                                            <p className='w-full text-center text-gray-600 text-xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>Today&apos;s AI is an uncharted revolution, not just intelligent. It enables feats once thought impossible, completing them with unprecedented efficiency. We&apos;re unlocking doors to extraordinary possibilities.</p>
                                         </div>
                                     </div>)}
                             </InView>
