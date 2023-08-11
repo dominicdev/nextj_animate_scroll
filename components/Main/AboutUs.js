@@ -14,7 +14,7 @@ const AboutUs = () => {
                                             <h2 className=' text-center text-red-600 font-bold text-5xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>About Us</h2>
                                         </div>
                                         <div className='flex flex-1'>
-                                            <p className='w-full text-center text-gray-600 text-xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>We are a Singapore-based Machine Learning company. We specialize in<br></br>building innovative Artificial Intelligence solutions, with a focus on Computer<br></br>Vision and Natural Language Processing.</p>
+                                            <p className='w-full text-center text-gray-600 text-xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>We are a Singapore-based AI & Machine Learning company. We specialize in<br></br>building innovative Artificial Intelligence solutions, with a focus on<br></br>using Large Language models combined with other tools.</p>
                                         </div>
                                     </div>)}
                             </InView>
@@ -25,7 +25,7 @@ const AboutUs = () => {
                                             <h2 className=' text-center text-red-600 font-bold text-5xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>Why AI?</h2>
                                         </div>
                                         <div className='flex flex-1'>
-                                            <p className='w-full text-center text-gray-600 text-xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>Current AI technology is not fully “intelligent” yet. But it allows to do things that were not possible before, or to complete tasks with a fraction of the effort. This is opening the door to some amazing opportunities.</p>
+                                            <p className='w-full text-center text-gray-600 text-xl pt-[1rem] pr-[0rem] pb-[0.5rem] pl-[0rem] font-sans'>Today&apos;s AI is an uncharted revolution, not just intelligent. It enables feats once thought impossible, completing them with unprecedented efficiency. We're unlocking doors to extraordinary possibilities.</p>
                                         </div>
                                     </div>)}
                             </InView>

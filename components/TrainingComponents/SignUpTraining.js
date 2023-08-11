@@ -72,7 +72,6 @@ const SignUpTraining = () => {
                 <div className="block my-[15px] mx-0 ">
                   <h1 className=" text-5xl text-black font-normal font-serif items-center">Find out more info</h1>
                 </div>
-
                 <hr
                   style={{
                     color: "black",
